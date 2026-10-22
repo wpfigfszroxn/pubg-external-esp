@@ -1,0 +1,25 @@
+# Default runtime configuration for the external overlay host
+process:
+  name: "TslGame.exe"
+  poll_interval_ms: 16
+
+overlay:
+  width: 1920
+  height: 1080
+  fps_cap: 144
+  backend: "pyglet"
+
+features:
+  esp:
+    enabled: true
+    box: true
+    skeleton: false
+    max_distance_m: 400
+  aimbot:
+    enabled: false
+    fov_degrees: 8
+    smoothing: 0.35
+
+logging:
+  level: "INFO"
+  file: "logs/host.log"
