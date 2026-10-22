@@ -1,0 +1,11 @@
+# pubg-external-esp runtime dependencies (educational / research use only)
+pymem==1.9.0
+pywin32==306
+psutil==5.9.8
+numpy==1.26.4
+Pillow==10.3.0
+keyboard==0.13.5
+pyglet==2.0.10
+rich==13.7.1
+pyyaml==6.0.1
+pytest==8.2.0
